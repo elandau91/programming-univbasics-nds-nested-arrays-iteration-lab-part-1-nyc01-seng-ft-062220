@@ -9,7 +9,7 @@ def find_even_values(src)
     half = element / 2
     
     while element < src[row].count do
-      if half * 2 == element do 
+      if half * 2 == src[row][element] do 
         p element
       end
       element += 1
